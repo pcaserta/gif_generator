@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+</head>
+<body>
+  <div  class="container">
+<h1>Gif Generator</h1>
+<div id="buttons-view"></div>
 
+<form id="gif-form">
+    <label for="gif-input">Create GIF generator here</label>
+    <input type="text" id="gif-input" />
+    <br>
+
+    <input id="add-Gif" type="submit" value="Generate Gifs" />
+  </form>
+
+  <div id="gifs-view"></div>
+
+
+  <script src="javascript.js"></script>
+
+</div>
+<!-- #### VANTA JS PLUGIN ### -->
+<!-- A. vanta js assets -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+<script src="https://www.vantajs.com/dist/vanta.fog.min.js"></script>
+<!-- B. Instilize vanta js by #id selector -->
+<script> 
+   VANTA.FOG('#vantajs')
+</script>
+</body>
+</html>
