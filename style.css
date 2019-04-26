@@ -9,7 +9,14 @@ input {
    float:left
 }
 
+.container{
+  background-color: lightgoldenrodyellow
+}
 
+.gif-btn{
+  background-color: aqua;
+  border-radius: 50%
+}
 
 .container {
   position: fixed;
@@ -25,4 +32,16 @@ input {
 h1{
   margin:10px
 
+}
+
+.gifG, #buttons-view, #gif-form{
+text-align: center
+}
+.gifG{
+  font-size: 50px;
+  color: blue
+}
+
+#gif-input{
+  margin-left: 0px
 }
