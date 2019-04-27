@@ -93,7 +93,7 @@ $("#add-Gif").on("click", function (event) {
   Gifs.push(gif)
 
   renderbuttons()
-
+  $("#gif-input").val("")
 });
 
 $(document).on("click", ".gif-btn", displayGif);
