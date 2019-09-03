@@ -5,17 +5,17 @@ input {
   margin: 10px;
 }
 
-.gif_arrange{
-   float:left
+.gif_arrange {
+  float: left;
 }
 
-.container{
-  background-color: lightgoldenrodyellow
+.container {
+  background-color: lightgoldenrodyellow;
 }
 
-.gif-btn{
+.gif-btn {
   background-color: aqua;
-  border-radius: 20%
+  border-radius: 20%;
 }
 
 .container {
@@ -25,23 +25,22 @@ input {
   bottom: 0;
   right: 0;
   overflow: auto;
-  margin:auto
-  
-  
+  margin: auto;
 }
-h1{
-  margin:10px
-
+h1 {
+  margin: 10px;
 }
 
-.gifG, #buttons-view, #gif-form{
-text-align: center
+.gifG,
+#buttons-view,
+#gif-form {
+  text-align: center;
 }
-.gifG{
+.gifG {
   font-size: 50px;
-  color: blue
+  color: blue;
 }
 
-#gif-input{
-  margin-left: 0px
+#gif-input {
+  margin-left: 0px;
 }
