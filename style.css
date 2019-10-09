@@ -5,6 +5,9 @@ input {
   margin: 10px;
 }
 
+.gif_instructions {
+  text-align: center;
+}
 .gif_arrange {
   float: left;
 }
